@@ -5,7 +5,7 @@ interface StarInstance extends Part {
 	Beam: Beam;
 }
 
-const stars = new Map<Part, Star>();
+export const stars = new Map<Part, Star>();
 
 const container = new Instance("Folder");
 container.Name = "StarContainer";
